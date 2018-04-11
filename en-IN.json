@@ -1,0 +1,68 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "chummy",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "InfoIntent",
+                    "slots": [
+                        {
+                            "name": "date",
+                            "type": "AMAZON.DATE"
+                        }
+                    ],
+                    "samples": [
+                        "When is my next period date",
+                        "when do I get my period",
+                        "When do I get my next period",
+                        "When will be my next period",
+                        "I got my last period on {date}",
+                        "I got my period on {date}",
+                        "I just got my period"
+                    ]
+                },
+                {
+                    "name": "OtherInfoIntent",
+                    "slots": [
+                        {
+                            "name": "date",
+                            "type": "AMAZON.DATE"
+                        }
+                    ],
+                    "samples": [
+                        "I had intercourse {date}",
+                        "I had sex on {date}",
+                        "I took a pill right now",
+                        "I popped a pill right now",
+                        "I just took a pill",
+                        "I took a pill on {date}"
+                    ]
+                },
+                {
+                    "name": "AskIntent",
+                    "slots": [],
+                    "samples": [
+                        "How do I get pregnant",
+                        "How to get pregnant",
+                        "Am I pregnant",
+                        "when is a pill the most effective",
+                        "I'm late on my period"
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
+}
